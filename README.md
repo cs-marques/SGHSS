@@ -54,17 +54,11 @@
 
 6. **Implantação em Produção**
    - Deploy com zero downtime
-   - CDN para distribuição global
-   - Monitoramento pós-deploy
-
+   - 
 ## 3. Estratégia de Versionamento
 
 ### 3.1 Estrutura de Branches
-- `main`: Código em produção
-- `develop`: Base para desenvolvimento
-- `feature/*`: Funcionalidades específicas
-- `hotfix/*`: Correções emergenciais
-- `release/*`: Preparação para releases
+- `master`: Código em produção
 
 ### 3.2 Política de Releases
 - Versionamento semântico (MAJOR.MINOR.PATCH)
@@ -73,16 +67,6 @@
 
 ## 4. Monitoramento e Análise
 
-### 4.1 Ferramentas de Monitoramento
-- Google Analytics para comportamento do usuário
-- LogRocket para reprodução de sessões e erros
-- Lighthouse para monitoramento de performance
-
-### 4.2 KPIs de Implantação
-- Tempo médio entre deploys
-- Taxa de defeitos por release
-- Tempo de recuperação após falhas
-- Tempo de carregamento da página inicial
 # Plano de Testes Detalhado - Sistema SGHSS
 
 ## 1. Testes de Interface do Usuário

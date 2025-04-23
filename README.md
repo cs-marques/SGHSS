@@ -54,7 +54,7 @@
 
 6. **Implantação em Produção**
    - Deploy com zero downtime
-   - 
+   
 ## 3. Estratégia de Versionamento
 
 ### 3.1 Estrutura de Branches
@@ -117,12 +117,8 @@
 | AT-002 | Ampliação de tela | Interface permanece utilizável com zoom de até 200% | Média |
 | AT-003 | Navegação por comandos de voz | Componentes principais acessíveis via comandos de voz | Baixa |
 
-## 4. Estratégia de Automação
-
-### 4.1 Ferramentas Propostas
+### 4.1 Ferramentas 
 - **Vitest**: Para testes unitários de componentes React
-- **Cypress**: Para testes end-to-end e simulação de fluxos completos
-- **Axe-core**: Para verificação automatizada de acessibilidade
 - **Lighthouse**: Para avaliação de performance e boas práticas
 
 ### 4.2 Cobertura de Testes

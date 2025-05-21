@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "missing"
+        }
+      ],
+      "destination": "/",
+      "statusCode": 302
+    }
+  ]
+}
